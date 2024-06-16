@@ -53,3 +53,4 @@ pytestdebug.log
 
 # Pyre type checker
 .pyre/
+.env
