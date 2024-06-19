@@ -37,7 +37,7 @@ print("Ключ шифрования:", key.decode())
 Запустить бота можно командой:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 ## Об авторе:
