@@ -478,7 +478,7 @@ def handle_video(message):
 
 @bot.message_handler(content_types=['audio'])
 def handle_audio(message):
-    """Хэндел аудиофайлов."""
+    """Хэндлер аудиофайлов."""
     try:
         file_info = bot.get_file(message.audio.file_id)
         bot.reply_to(message, 'Введите имя файла для загрузки на Яндекс.Диск:')
